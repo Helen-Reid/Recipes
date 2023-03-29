@@ -1,0 +1,237 @@
+body {
+    background-image:url("crissxcross.jpg");
+    background-attachment: fixed;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+    color: #0deda2;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: #026f66 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 { 
+    display: flex;
+    justify-content: left;
+    color: #0deda2; 
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px ;
+    text-shadow: #026f66 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p { 
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intext {
+    display:flex;
+    justify-content: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image1 {
+    max-height: 4cm;
+    display:flex;
+    justify-content: center;
+}
+
+.image2 {
+    max-height: 20cm;
+    display: flex;
+    justify-content: center;
+}
+
+.image3 {
+    max-height: 20cm;
+    display: flex;
+    justify-content: center;
+}
+.image4 {
+    max-height: 20cm;
+    display: flex;
+    justify-content: center;
+}
+
+
+#navbar {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #026f66 1px 1px;
+    padding: 10px;
+    border-style: dotted;
+    border-color: #038f83;
+    opacity: 0.6;
+}
+
+
+#navbar a{
+    text-decoration: none;
+    color: #0deda26b;
+    opacity: 0.6;
+}
+
+#navbar a:hover{
+    text-decoration: none;
+    color: #0deda2;
+    transform: color;
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+#all-recipes {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+
+}
+
+    .container {
+        position: relative;
+        width: 10cm;
+        height:auto
+    }
+    
+    .im1 {
+        display: block;
+        width: 10cm;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .im2 {
+        display: block;
+        width: 10cm;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .im3 {
+        display: block;
+        width: 10cm;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .im4 {
+        display: block;
+        width: 10cm;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .im5 {
+        display: block;
+        width: 10cm;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 5cm;
+        left: 5cm;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .container:hover .im1 {
+        opacity: 0.7;
+    }
+    .container:hover .im2 {
+        opacity: 0.7;
+    }    
+    .container:hover .im3 {
+        opacity: 0.7;
+    }    
+    .container:hover .im4 {
+        opacity: 0.7;
+    }    
+    .container:hover .im5 {
+        opacity: 0.7;
+    }
+    
+    .container:hover .middle {
+        opacity: 1;
+    }
+    
+    .text {
+        background-color: hwb(158 2% 33%);
+        color: hsl(0, 0%, 100%);
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+
+.roasties {
+    display: flex;
+    justify-content:center;
+}
+
+.hpbs {
+    display: flex;
+    justify-content: center;
+}
+
+.c-o-p-p {
+    display: flex;
+    justify-content: center;
+}
+
+.chicnmush {
+    display: flex;
+    justify-content: center;
+}
+
+.sausnmush {
+    display: flex;
+    justify-content: center;
+}
+.yummyemoji {
+    display:flex;
+    justify-content: center;
+    opacity:0.7;
+}
+.gordon {
+    display: flex;
+    justify-content: center;
+}
+.resources {
+    display:inline-flex;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.resources a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #038f83;
+    opacity: 0.6;
+}
+.resources a:hover{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:#0deda2;
+    transition-duration: 1s;
+    opacity:1;
+}
+
