@@ -1,6 +1,7 @@
 body {
-    background-repeat: repeat;
     background-image:url("crissxcross.jpg");
+    background-size: cover;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 h1{ 
